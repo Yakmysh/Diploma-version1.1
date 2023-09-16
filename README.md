@@ -1,5 +1,5 @@
 # Дипломное задание по курсу «JavaScript-программирование для начинающих»
-Ссылка на сайт кинотеатра: https://github.com/Yakmysh/Diploma-version-1.git
+Ссылка на сайт кинотеатра: https://yakmysh.github.io/Diploma-version1.1/
 
 Перечень используемых технологий в написании: HTML , CSS , JavaScript, Git, Code Beautify
 
