@@ -1,6 +1,6 @@
-const selectSeanse = JSON.parse(sessionStorage.selectSeanse);
+function generateTicket() {
+	const selectSeanse = JSON.parse(sessionStorage.selectSeanse);
 
-document.addEventListener("DOMContentLoaded", function() {
 	let places = "";
 	let price = 0;
 
@@ -36,7 +36,8 @@ document.addEventListener("DOMContentLoaded", function() {
 	const qrcode = QRCreator(textQR, {
 		image: "SVG"
 	});
+	qrcode.download();
 
 	document.querySelector(".ticket__info-qr").append(qrcode.result);
-	console.log(qrcode.result);
-});
+}
+document.addEventListener("DOMContentLoaded", generateTicket);

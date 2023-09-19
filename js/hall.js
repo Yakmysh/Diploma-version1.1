@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	buyingInfoHall.innerHTML = selectSeanse.hallName;
 	priceStandart.innerHTML = selectSeanse.priceStandart;
 
-	createRequest(request, (response) => {
+    createRequest(request, (response) => {
 		console.log(response);
 		if (response) {
 			selectSeanse.hallConfig = response;
